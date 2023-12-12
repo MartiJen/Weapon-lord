@@ -75,9 +75,15 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
+    <ClCompile Include="BaseUnit.cpp" />
+    <ClCompile Include="Knight.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Orc.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BaseUnit.h" />
+    <ClInclude Include="Knight.h" />
+    <ClInclude Include="Orc.h" />
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

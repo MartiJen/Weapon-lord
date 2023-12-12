@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="BaseUnit.cpp">
+      <Filter>.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Knight.cpp">
+      <Filter>.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Orc.cpp">
+      <Filter>.cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include=".cpp">
+      <UniqueIdentifier>{74c239b4-3487-4b71-9e30-5bc3c804a3a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".h">
+      <UniqueIdentifier>{f3391e0e-9535-4d3a-be28-cbebe0ef1e20}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseUnit.h">
+      <Filter>.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Knight.h">
+      <Filter>.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Orc.h">
+      <Filter>.h</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
